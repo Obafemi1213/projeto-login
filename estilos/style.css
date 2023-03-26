@@ -58,17 +58,39 @@ div#formulario > h1{
 
 }
 
+div.campo > i {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+
+}
+
+.cmp{
+    background-color: #142b2a;
+    font-size: 1em;
+    width:calc(100% - 44px) ;
+    transform:translateY(-12px);
+    height: 100% ;
+    border: 0px;
+    border-radius: 8px;
+
+
+
+}
+
 .campo{
     background-color: #5f2c82;
+    border: 2px solid #5f2c82 ;
     width: 100%;
     display: block;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
 
 }
 
-div.campolabel
+
 
 div#formulario > p{
     font-size: 0.8em;
